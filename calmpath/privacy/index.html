@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CalmPath — Privacy Policy</title>
+    <meta name="description" content="How CalmPath collects, uses, encrypts, shares, and lets you delete your data." />
+    <style>
+      :root{--teal:#1d9e87;--teal-700:#157a68;--bg:#f7f5f2;--card:#fff;--text:#1a1a1a;--muted:#5c5c5c;--border:#e6e2dd}
+      @media (prefers-color-scheme:dark){:root{--bg:#14181a;--card:#1e2427;--text:#f2f2f0;--muted:#a8b0b2;--border:#2c3438}}
+      *{box-sizing:border-box}
+      body{margin:0;background:var(--bg);color:var(--text);line-height:1.65;
+        font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+      .wrap{max-width:760px;margin:0 auto;padding:32px 20px 72px}
+      header{display:flex;align-items:center;gap:12px;margin-bottom:6px}
+      .dot{width:34px;height:34px;border-radius:50%;background:var(--teal);flex:none}
+      .brand{font-weight:700;font-size:1.05rem}
+      h1{font-size:1.8rem;margin:20px 0 4px}
+      h2{font-size:1.2rem;margin:30px 0 8px}
+      .muted{color:var(--muted)}
+      .updated{color:var(--muted);font-size:.92rem;margin-bottom:8px}
+      a{color:var(--teal-700)}
+      table{border-collapse:collapse;width:100%;margin:10px 0;font-size:.95rem}
+      th,td{border:1px solid var(--border);padding:8px 10px;text-align:left;vertical-align:top}
+      .note{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:14px 16px;margin:18px 0}
+      footer{margin-top:40px;color:var(--muted);font-size:.9rem;border-top:1px solid var(--border);padding-top:16px}
+      code{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:1px 5px}
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header><span class="dot"></span><span class="brand">CalmPath</span></header>
+      <h1>Privacy Policy</h1>
+      <p class="updated">Last updated: July 13, 2026</p>
+
+      <p>CalmPath ("we", "us") is a mental-wellness app that offers an AI companion
+      for supportive conversation, mood tracking, and private journaling. This
+      policy explains what we collect, how we use and protect it, who we share it
+      with, and the choices you have. By using CalmPath you agree to this policy.</p>
+
+      <div class="note"><strong>CalmPath is not a medical service.</strong> It does
+      not provide diagnosis, therapy, or treatment, is not a substitute for
+      professional care, and is not for emergencies. We are not a HIPAA-covered
+      entity. If you are in crisis, contact your local emergency number or a crisis
+      line — the app also lists crisis resources.</div>
+
+      <h2>Information we collect</h2>
+      <table>
+        <tr><th>Category</th><th>Examples</th></tr>
+        <tr><td>Account</td><td>Email address, display name.</td></tr>
+        <tr><td>Your content <em>(encrypted)</em></td><td>Your conversations with Calm, journal entries, and mood check-ins and notes.</td></tr>
+        <tr><td>Derived wellness data</td><td>Session summaries and weekly insights generated from your activity (no verbatim quotes of your content).</td></tr>
+        <tr><td>Subscription</td><td>Your CalmPath Pro status and renewal state (via our payments processor).</td></tr>
+        <tr><td>Usage analytics</td><td>Screen views and feature interactions — never the text of your messages, journals, or mood notes.</td></tr>
+        <tr><td>Diagnostics</td><td>Crash reports and error diagnostics, scrubbed of personal content.</td></tr>
+        <tr><td>Notifications</td><td>A device push token, only if you enable reminders.</td></tr>
+        <tr><td>Safety records</td><td>If our crisis-safety filter triggers, we log a severity level and timestamp only — never the message text.</td></tr>
+      </table>
+
+      <h2>How we use it</h2>
+      <ul>
+        <li>To provide the app: generate AI responses, store your journal/mood/chat history, and show your insights.</li>
+        <li>To keep you safe: run a crisis-safety filter and surface resources.</li>
+        <li>To operate and improve: understand which features help (via privacy-preserving analytics) and fix crashes.</li>
+        <li>To communicate: account emails such as confirmation, password reset, and data-export links.</li>
+      </ul>
+      <p>We do <strong>not</strong> sell your personal information, and your content is
+      <strong>never used to train AI models</strong>.</p>
+
+      <h2>Encryption &amp; security</h2>
+      <p>Your conversations, journal entries, and mood notes are <strong>encrypted at
+      rest</strong>. Access is protected by row-level security so your data is
+      readable only by you (and the service components needed to operate the app).
+      No method of transmission or storage is 100% secure, but we design for
+      data-minimization and least privilege.</p>
+
+      <h2>Service providers we share data with</h2>
+      <p>We use a small set of processors, each for a specific purpose:</p>
+      <table>
+        <tr><th>Provider</th><th>Purpose</th></tr>
+        <tr><td>Anthropic (Claude)</td><td>Processes your chat messages to generate responses. Not used to train models.</td></tr>
+        <tr><td>Supabase</td><td>Authentication, database, and hosting.</td></tr>
+        <tr><td>RevenueCat &amp; Google Play</td><td>Subscription management and billing.</td></tr>
+        <tr><td>PostHog</td><td>Product analytics (usage events only — no content).</td></tr>
+        <tr><td>Sentry</td><td>Crash and error diagnostics (scrubbed of content).</td></tr>
+        <tr><td>Expo (EAS)</td><td>Push notifications and app updates.</td></tr>
+        <tr><td>Resend</td><td>Transactional email (confirmations, resets, export links).</td></tr>
+      </table>
+      <p>Each provider processes data under its own privacy terms. We share only
+      what each needs for its function.</p>
+
+      <h2>Your rights &amp; choices</h2>
+      <ul>
+        <li><strong>Access &amp; export:</strong> request a full export of your data in the app (Settings → Privacy &amp; data).</li>
+        <li><strong>Delete:</strong> permanently delete your account and data in the app (Settings → Delete account) or via our
+          <a href="../account-deletion/">web deletion page</a>. Deletion removes your account, conversations, journals, mood history, and insights. Anonymized crisis-safety records (with no link to you) may be retained for auditing.</li>
+        <li><strong>Correct:</strong> update your display name in the app.</li>
+        <li><strong>Notifications:</strong> turn reminders on or off any time.</li>
+      </ul>
+
+      <h2>Data retention</h2>
+      <p>We keep your data until you delete it or your account. When you delete your
+      account, your personal data is removed promptly; anonymized safety records may
+      be retained as described above.</p>
+
+      <h2>Children</h2>
+      <p>CalmPath is intended for adults and is not directed to children under 13 (or
+      the minimum age required in your country). We do not knowingly collect data
+      from children.</p>
+
+      <h2>International users</h2>
+      <p>Your data may be processed in countries other than your own by us and our
+      providers. Where required, we rely on appropriate safeguards for such transfers.</p>
+
+      <h2>Changes to this policy</h2>
+      <p>We may update this policy; we will revise the "Last updated" date above and,
+      for material changes, notify you in the app.</p>
+
+      <h2>Contact</h2>
+      <p>Questions or requests: <a href="mailto:support@calmpath.app">support@calmpath.app</a>.</p>
+
+      <footer>
+        CalmPath · <a href="../">Home</a> · <a href="../terms/">Terms</a> ·
+        <a href="../account-deletion/">Delete your account</a>
+      </footer>
+    </div>
+  </body>
+</html>
